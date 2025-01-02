@@ -1,0 +1,25 @@
+{"QUIZ":
+    [
+    {
+        "question": "Who won the FIFA World Cup in 2018?",
+        "options": ["A. Brazil", "B. Germany", "C. France", "D. Argentina"],
+        "answer": "A"
+    },
+    {
+        "question": "Which player has the most Ballon d'Or awards as of 2024?",
+        "options": ["A. Lionel Messi", "B. Cristiano Ronaldo", "C. Zinedine Zidane", "D. Johan Cruyff"],
+        "answer": "A"
+    },
+    {
+        "question": "Which football club is nicknamed 'The Red Devils'?",
+        "options": ["A. Manchester United", "B. Liverpool", "C. AC Milan", "D. Arsenal"],
+        "answer": "A"
+    },
+    {
+        "question": "Who is the top scorer in UEFA Champions League history?",
+        "options": ["A. Cristiano Ronaldo", "B. Lionel Messi", "C. Robert Lewandowski", "D. Karim Benzema"],
+        "answer": "A"
+    }
+]
+
+}
