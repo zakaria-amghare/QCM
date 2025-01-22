@@ -1,1087 +1,548 @@
-[
-    {
-        "question": "Who won the FIFA World Cup in 2018?",
-        "options": ["A. Brazil", "B. Germany", "C. France", "D. Argentina"],
-        "answer": "C"
-    },
-    {
-        "question": "Which player has the most Ballon d'Or awards as of 2024?",
-        "options": ["A. Lionel Messi", "B. Cristiano Ronaldo", "C. Zinedine Zidane", "D. Johan Cruyff"],
-        "answer": "A"
-    },
-    {
-        "question": "Which football club is nicknamed 'The Red Devils'?",
-        "options": ["A. Manchester United", "B. Liverpool", "C. AC Milan", "D. Arsenal"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is the top scorer in UEFA Champions League history?",
-        "options": ["A. Cristiano Ronaldo", "B. Lionel Messi", "C. Robert Lewandowski", "D. Karim Benzema"],
-        "answer": "A"
-    },
-    {
-        "question": "Which country has won the most FIFA World Cups?",
-        "options": ["A. Brazil", "B. Germany", "C. Italy", "D. Argentina"],
-        "answer": "A"
-    },
-
-    {
-        "question": "Who is the captain of the Straw Hat Pirates?",
-        "options": ["A. Monkey D. Luffy", "B. Roronoa Zoro", "C. Sanji", "D. Usopp"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of Luffy's devil fruit?",
-        "options": ["A. Gomu Gomu no Mi", "B. Mera Mera no Mi", "C. Hito Hito no Mi", "D. Bara Bara no Mi"],
-        "answer": "A"
-    },
-    {
-        "question": "What is Zoro’s dream?",
-        "options": ["A. To become the Pirate King", "B. To become the world’s greatest swordsman", "C. To find the One Piece", "D. To defeat Kaido"],
-        "answer": "B"
-    },
-    {
-        "question": "What is the name of Nami's weapon?",
-        "options": ["A. Clima-Tact", "B. Shusui", "C. Kabuto", "D. Weather Rod"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is the main antagonist in the Marineford Arc?",
-        "options": ["A. Akainu", "B. Blackbeard", "C. Aokiji", "D. Kizaru"],
-        "answer": "A"
-    },
-
-    {
-        "question": "What is Naruto's dream?",
-        "options": ["A. To become Hokage", "B. To defeat Sasuke", "C. To learn all jutsus", "D. To protect the Akatsuki"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of Naruto’s signature move?",
-        "options": ["A. Rasengan", "B. Chidori", "C. Amaterasu", "D. Shadow Clone Jutsu"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the Nine-Tails fox's real name?",
-        "options": ["A. Kurama", "B. Shukaku", "C. Gyuki", "D. Matatabi"],
-        "answer": "A"
-    },
-    {
-        "question": "Who was Naruto’s first sensei?",
-        "options": ["A. Iruka", "B. Kakashi", "C. Jiraiya", "D. Asuma"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is the leader of the Akatsuki?",
-        "options": ["A. Pain", "B. Obito", "C. Itachi", "D. Madara"],
-        "answer": "A"
-    },
-
-    {
-        "question": "Who is the main protagonist of Jujutsu Kaisen?",
-        "options": ["A. Yuji Itadori", "B. Megumi Fushiguro", "C. Satoru Gojo", "D. Sukuna"],
-        "answer": "A"
-    },
-    {
-        "question": "What is Gojo Satoru known for?",
-        "options": ["A. Infinity technique", "B. Black Flash", "C. Domain Expansion", "D. Cursed Tools"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of Yuji's cursed technique?",
-        "options": ["A. Divergent Fist", "B. Hollow Purple", "C. Domain Expansion", "D. Cursed Energy Manipulation"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is Sukuna?",
-        "options": ["A. A cursed spirit", "B. A Jujutsu sorcerer", "C. A human", "D. A deity"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the primary role of Megumi Fushiguro?",
-        "options": ["A. To summon shikigami", "B. To control cursed tools", "C. To lead missions", "D. To teach Yuji"],
-        "answer": "A"
-    },
-
-    {
-        "question": "Who directed the movie *Inception*?",
-        "options": ["A. Christopher Nolan", "B. Steven Spielberg", "C. James Cameron", "D. Martin Scorsese"],
-        "answer": "A"
-    },
-    {
-        "question": "Which movie won the Oscar for Best Picture in 2023?",
-        "options": ["A. Everything Everywhere All At Once", "B. Top Gun: Maverick", "C. Avatar: The Way of Water", "D. The Fabelmans"],
-        "answer": "A"
-    },
-    {
-        "question": "Who played Iron Man in the Marvel Cinematic Universe?",
-        "options": ["A. Robert Downey Jr.", "B. Chris Evans", "C. Chris Hemsworth", "D. Mark Ruffalo"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the highest-grossing movie of all time as of 2024?",
-        "options": ["A. Avatar", "B. Avengers: Endgame", "C. Titanic", "D. Star Wars: The Force Awakens"],
-        "answer": "A"
-    },
-    {
-        "question": "Who played the Joker in *The Dark Knight*?",
-        "options": ["A. Heath Ledger", "B. Joaquin Phoenix", "C. Jared Leto", "D. Jack Nicholson"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is known as 'El Pibe de Oro' (The Golden Boy) in football?",
-        "options": ["A. Lionel Messi", "B. Diego Maradona", "C. Pelé", "D. Zinedine Zidane"],
-        "answer": "B"
-    },
-    {
-        "question": "Which country hosted the 2014 FIFA World Cup?",
-        "options": ["A. Brazil", "B. Germany", "C. South Africa", "D. Russia"],
-        "answer": "A"
-    },
-    {
-        "question": "Which team won the UEFA Champions League in 2022?",
-        "options": ["A. Real Madrid", "B. Liverpool", "C. Manchester City", "D. Chelsea"],
-        "answer": "A"
-    },
-    {
-        "question": "What year was the Premier League founded?",
-        "options": ["A. 1992", "B. 1985", "C. 2000", "D. 1998"],
-        "answer": "A"
-    },
-    {
-        "question": "Which player scored the infamous 'Hand of God' goal?",
-        "options": ["A. Diego Maradona", "B. Pelé", "C. Cristiano Ronaldo", "D. Lionel Messi"],
-        "answer": "A"
-    },
-
-    {
-        "question": "What is the name of One Piece's main villain in the Dressrosa Arc?",
-        "options": ["A. Doflamingo", "B. Crocodile", "C. Kaido", "D. Big Mom"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the ship used by the Straw Hat Pirates before the Thousand Sunny?",
-        "options": ["A. Going Merry", "B. Oro Jackson", "C. Red Force", "D. Flying Dutchman"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the bounty of Monkey D. Luffy after the Whole Cake Island Arc?",
-        "options": ["A. 1.5 billion berries", "B. 500 million berries", "C. 3 billion berries", "D. 1 billion berries"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is the first crew member to join Luffy?",
-        "options": ["A. Zoro", "B. Sanji", "C. Nami", "D. Usopp"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the ultimate treasure everyone is searching for in One Piece?",
-        "options": ["A. The One Piece", "B. Devil Fruits", "C. Eternal Pose", "D. Ancient Weapons"],
-        "answer": "A"
-    },
-
-    {
-        "question": "What is the name of Naruto’s father?",
-        "options": ["A. Minato Namikaze", "B. Jiraiya", "C. Fugaku Uchiha", "D. Hashirama Senju"],
-        "answer": "A"
-    },
-    {
-        "question": "What is Sasuke’s signature jutsu?",
-        "options": ["A. Chidori", "B. Rasengan", "C. Amaterasu", "D. Shadow Clone"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is the first Hokage of the Hidden Leaf Village?",
-        "options": ["A. Hashirama Senju", "B. Tobirama Senju", "C. Hiruzen Sarutobi", "D. Minato Namikaze"],
-        "answer": "A"
-    },
-    {
-        "question": "Who founded the Akatsuki?",
-        "options": ["A. Yahiko", "B. Pain", "C. Madara Uchiha", "D. Obito Uchiha"],
-        "answer": "A"
-    },
-    {
-        "question": "What does the Sharingan evolve into?",
-        "options": ["A. Mangekyō Sharingan", "B. Byakugan", "C. Rinnegan", "D. Tenseigan"],
-        "answer": "A"
-    },
-
-    {
-        "question": "What school does Yuji Itadori attend?",
-        "options": ["A. Jujutsu High", "B. Tokyo Academy", "C. Kyoto High", "D. Sorcerer’s Academy"],
-        "answer": "A"
-    },
-    {
-        "question": "What is Megumi Fushiguro’s signature technique?",
-        "options": ["A. Ten Shadows Technique", "B. Domain Expansion", "C. Hollow Purple", "D. Black Flash"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is the strongest sorcerer in Jujutsu Kaisen?",
-        "options": ["A. Gojo Satoru", "B. Sukuna", "C. Nanami Kento", "D. Yuta Okkotsu"],
-        "answer": "A"
-    },
-    {
-        "question": "What is Sukuna's nickname?",
-        "options": ["A. King of Curses", "B. Lord of Sorcery", "C. Spirit King", "D. Demon Overlord"],
-        "answer": "A"
-    },
-    {
-        "question": "What is Nobara Kugisaki’s main weapon?",
-        "options": ["A. Hammer and Nails", "B. Katana", "C. Bow and Arrow", "D. Scythe"],
-        "answer": "A"
-    },
-
-    {
-        "question": "Which movie franchise features 'The Force'?",
-        "options": ["A. Star Wars", "B. Star Trek", "C. Harry Potter", "D. Lord of the Rings"],
-        "answer": "A"
-    },
-    {
-        "question": "Who played the lead role in the *Matrix* series?",
-        "options": ["A. Keanu Reeves", "B. Tom Cruise", "C. Brad Pitt", "D. Leonardo DiCaprio"],
-        "answer": "A"
-    },
-    {
-        "question": "Which Pixar movie features a robot named WALL-E?",
-        "options": ["A. WALL-E", "B. Up", "C. Cars", "D. Finding Nemo"],
-        "answer": "A"
-    },
-    {
-        "question": "Who directed *Titanic*?",
-        "options": ["A. James Cameron", "B. Steven Spielberg", "C. Christopher Nolan", "D. Ridley Scott"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the highest-grossing animated film of all time as of 2024?",
-        "options": ["A. Frozen II", "B. The Lion King (2019)", "C. Toy Story 4", "D. Minions"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is known as the inventor of the light bulb?",
-        "options": ["A. Thomas Edison", "B. Nikola Tesla", "C. Alexander Graham Bell", "D. Isaac Newton"],
-        "answer": "A"
-    },
-    {
-        "question": "Which company introduced the first smartphone?",
-        "options": ["A. IBM", "B. Apple", "C. Samsung", "D. Nokia"],
-        "answer": "A"
-    },
-    {
-        "question": "What innovation is Tim Berners-Lee credited with?",
-        "options": ["A. The World Wide Web", "B. The microprocessor", "C. The smartphone", "D. The blockchain"],
-        "answer": "A"
-    },
-    {
-        "question": "Which of the following is considered the first programmable computer?",
-        "options": ["A. ENIAC", "B. Zuse Z3", "C. IBM PC", "D. Macintosh"],
-        "answer": "B"
-    },
-    {
-        "question": "Who is credited with inventing the printing press?",
-        "options": ["A. Johannes Gutenberg", "B. Leonardo da Vinci", "C. Isaac Newton", "D. Thomas More"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the spacecraft that first landed humans on the moon?",
-        "options": ["A. Apollo 11", "B. Voyager 1", "C. Hubble", "D. Space Shuttle Discovery"],
-        "answer": "A"
-    },
-    {
-        "question": "What company created the first widely popular electric car?",
-        "options": ["A. Tesla", "B. Toyota", "C. General Motors", "D. Nissan"],
-        "answer": "A"
-    },
-    {
-        "question": "Which invention is Alexander Graham Bell famous for?",
-        "options": ["A. Telephone", "B. Radio", "C. Television", "D. Phonograph"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is credited with the invention of the airplane?",
-        "options": ["A. Wright Brothers", "B. Charles Lindbergh", "C. Leonardo da Vinci", "D. Henry Ford"],
-        "answer": "A"
-    },
-    {
-        "question": "What innovation did Steve Jobs introduce in 2007?",
-        "options": ["A. iPhone", "B. iMac", "C. iPod", "D. iPad"],
-        "answer": "A"
-    },
-    {
-        "question": "What was the first programming language ever created?",
-        "options": ["A. Assembly", "B. Fortran", "C. COBOL", "D. Ada"],
-        "answer": "B"
-    },
-    {
-        "question": "Who is credited with the invention of the World Wide Web in 1989?",
-        "options": ["A. Tim Berners-Lee", "B. Bill Gates", "C. Steve Wozniak", "D. Mark Zuckerberg"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the first satellite launched into space?",
-        "options": ["A. Sputnik 1", "B. Explorer 1", "C. Apollo 1", "D. Skylab"],
-        "answer": "A"
-    },
-    {
-        "question": "What was the first commercially successful video game?",
-        "options": ["A. Pong", "B. Pac-Man", "C. Space Invaders", "D. Tetris"],
-        "answer": "A"
-    },
-    {
-        "question": "Who developed the theory of relativity?",
-        "options": ["A. Albert Einstein", "B. Isaac Newton", "C. Galileo Galilei", "D. Marie Curie"],
-        "answer": "A"
-    },
-    {
-        "question": "Which innovation revolutionized agriculture in the 19th century?",
-        "options": ["A. Mechanical Reaper", "B. Steam Engine", "C. Telegraph", "D. Cotton Gin"],
-        "answer": "A"
-    },
-    {
-        "question": "What major innovation is James Watt known for improving?",
-        "options": ["A. Steam Engine", "B. Electric Motor", "C. Printing Press", "D. Assembly Line"],
-        "answer": "A"
-    },
-    {
-        "question": "What medical innovation did Alexander Fleming discover?",
-        "options": ["A. Penicillin", "B. X-Ray", "C. Anesthesia", "D. DNA Structure"],
-        "answer": "A"
-    },
-    {
-        "question": "What company launched the first reusable rocket?",
-        "options": ["A. SpaceX", "B. NASA", "C. Blue Origin", "D. Boeing"],
-        "answer": "A"
-    },
-    {
-        "question": "What innovation is credited to Marie Curie?",
-        "options": ["A. Radioactivity", "B. Periodic Table", "C. DNA Structure", "D. Penicillin"],
-        "answer": "A"
-    },{
-        "question": "What is the largest land animal on Earth?",
-        "options": ["A. African Elephant", "B. Blue Whale", "C. Giraffe", "D. Hippopotamus"],
-        "answer": "A"
-    },
-    {
-        "question": "Which animal is known as the 'King of the Jungle'?",
-        "options": ["A. Lion", "B. Tiger", "C. Elephant", "D. Gorilla"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the fastest land animal?",
-        "options": ["A. Cheetah", "B. Falcon", "C. Lion", "D. Horse"],
-        "answer": "A"
-    },
-    {
-        "question": "Which bird is known for its ability to mimic human speech?",
-        "options": ["A. Parrot", "B. Crow", "C. Owl", "D. Raven"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the tallest animal in the world?",
-        "options": ["A. Giraffe", "B. Elephant", "C. Camel", "D. Ostrich"],
-        "answer": "A"
-    },
-    {
-        "question": "Which animal is known as the largest mammal?",
-        "options": ["A. Blue Whale", "B. African Elephant", "C. Orca", "D. Hippopotamus"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the only mammal capable of true flight?",
-        "options": ["A. Bat", "B. Flying Squirrel", "C. Bird", "D. Sugar Glider"],
-        "answer": "A"
-    },
-    {
-        "question": "What type of animal is a Komodo dragon?",
-        "options": ["A. Lizard", "B. Snake", "C. Crocodile", "D. Turtle"],
-        "answer": "A"
-    },
-    {
-        "question": "Which of the following is the largest species of shark?",
-        "options": ["A. Whale Shark", "B. Great White Shark", "C. Hammerhead Shark", "D. Tiger Shark"],
-        "answer": "A"
-    },
-    {
-        "question": "What is a group of lions called?",
-        "options": ["A. Pride", "B. Herd", "C. Flock", "D. Pack"],
-        "answer": "A"
-    },
-    {
-        "question": "Which animal is known to have three hearts?",
-        "options": ["A. Octopus", "B. Jellyfish", "C. Starfish", "D. Squid"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the fastest bird in the world?",
-        "options": ["A. Peregrine Falcon", "B. Golden Eagle", "C. Bald Eagle", "D. Hawk"],
-        "answer": "A"
-    },
-    {
-        "question": "Which animal is known as the ship of the desert?",
-        "options": ["A. Camel", "B. Horse", "C. Elephant", "D. Donkey"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the smallest bird in the world?",
-        "options": ["A. Bee Hummingbird", "B. Sparrow", "C. Finch", "D. Robin"],
-        "answer": "A"
-    },
-    {
-        "question": "Which marine animal is known for its eight legs?",
-        "options": ["A. Octopus", "B. Squid", "C. Jellyfish", "D. Starfish"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the primary diet of a panda?",
-        "options": ["A. Bamboo", "B. Grass", "C. Fruits", "D. Meat"],
-        "answer": "A"
-    },
-    {
-        "question": "Which animal is known to have the longest lifespan?",
-        "options": ["A. Giant Tortoise", "B. Blue Whale", "C. Elephant", "D. Bowhead Whale"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the largest species of cat?",
-        "options": ["A. Siberian Tiger", "B. Lion", "C. Leopard", "D. Cheetah"],
-        "answer": "A"
-    },
-    {
-        "question": "Which animal is known for playing dead to avoid predators?",
-        "options": ["A. Opossum", "B. Armadillo", "C. Rabbit", "D. Squirrel"],
-        "answer": "A"
-    },
-    {
-        "question": "Which insect is known for its ability to lift objects many times its own weight?",
-        "options": ["A. Ant", "B. Beetle", "C. Grasshopper", "D. Spider"],
-        "answer": "A"
-    },    {
-        "question": "What does UFC stand for?",
-        "options": ["A. Ultimate Fighting Championship", "B. Ultimate Fight Club", "C. United Fighting Circle", "D. Universal Fight Club"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is known as 'The Notorious' in the UFC?",
-        "options": ["A. Conor McGregor", "B. Khabib Nurmagomedov", "C. Nate Diaz", "D. Jon Jones"],
-        "answer": "A"
-    },
-    {
-        "question": "What weight class is known as the 'Heavyweight' division in the UFC?",
-        "options": ["A. 206-265 lbs", "B. 155-170 lbs", "C. 145-155 lbs", "D. 125-135 lbs"],
-        "answer": "A"
-    },
-    {
-        "question": "Who holds the record for the most title defenses in UFC history?",
-        "options": ["A. Anderson Silva", "B. Georges St-Pierre", "C. Jon Jones", "D. Demetrious Johnson"],
-        "answer": "D"
-    },
-    {
-        "question": "Which fighter is famous for saying 'I’m not surprised, motherf***ers' after a big win?",
-        "options": ["A. Nate Diaz", "B. Conor McGregor", "C. Khabib Nurmagomedov", "D. Jorge Masvidal"],
-        "answer": "A"
-    },
-    {
-        "question": "Which UFC fighter is known as 'Bones'?",
-        "options": ["A. Jon Jones", "B. Israel Adesanya", "C. Daniel Cormier", "D. Francis Ngannou"],
-        "answer": "A"
-    },
-    {
-        "question": "Which country is Khabib Nurmagomedov from?",
-        "options": ["A. Russia", "B. Brazil", "C. USA", "D. Ireland"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the octagonal cage in UFC called?",
-        "options": ["A. The Octagon", "B. The Ring", "C. The Cage", "D. The Arena"],
-        "answer": "A"
-    },
-    {
-        "question": "Who defeated Ronda Rousey to end her undefeated streak?",
-        "options": ["A. Holly Holm", "B. Amanda Nunes", "C. Cris Cyborg", "D. Valentina Shevchenko"],
-        "answer": "A"
-    },
-    {
-        "question": "Which UFC fighter is nicknamed 'The Spider'?",
-        "options": ["A. Anderson Silva", "B. Israel Adesanya", "C. Kamaru Usman", "D. Alexander Volkanovski"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is known as 'The Greatest' in boxing?",
-        "options": ["A. Muhammad Ali", "B. Mike Tyson", "C. Floyd Mayweather", "D. Sugar Ray Leonard"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the heaviest weight class in boxing?",
-        "options": ["A. Heavyweight", "B. Cruiserweight", "C. Middleweight", "D. Featherweight"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is nicknamed 'Iron Mike' in boxing?",
-        "options": ["A. Mike Tyson", "B. Muhammad Ali", "C. Evander Holyfield", "D. Lennox Lewis"],
-        "answer": "A"
-    },
-    {
-        "question": "Who did Floyd Mayweather defeat to achieve a 50-0 record?",
-        "options": ["A. Conor McGregor", "B. Manny Pacquiao", "C. Canelo Alvarez", "D. Oscar De La Hoya"],
-        "answer": "A"
-    },
-    {
-        "question": "Which boxer was famously known as 'The Baddest Man on the Planet'?",
-        "options": ["A. Mike Tyson", "B. George Foreman", "C. Larry Holmes", "D. Joe Frazier"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the term for a fight-ending punch in boxing?",
-        "options": ["A. Knockout", "B. Submission", "C. TKO", "D. Decision"],
-        "answer": "A"
-    },
-    {
-        "question": "Who did Muhammad Ali fight in the 'Rumble in the Jungle'?",
-        "options": ["A. George Foreman", "B. Joe Frazier", "C. Sonny Liston", "D. Larry Holmes"],
-        "answer": "A"
-    },
-    {
-        "question": "What is Floyd Mayweather’s nickname?",
-        "options": ["A. Money", "B. Iron", "C. The Hitman", "D. The Beast"],
-        "answer": "A"
-    },
-    {
-        "question": "Who was the first female boxer to win titles in five different weight divisions?",
-        "options": ["A. Amanda Serrano", "B. Claressa Shields", "C. Katie Taylor", "D. Laila Ali"],
-        "answer": "A"
-    },
-    {
-        "question": "Which boxer was known for the phrase 'Float like a butterfly, sting like a bee'?",
-        "options": ["A. Muhammad Ali", "B. Sugar Ray Leonard", "C. Joe Frazier", "D. Mike Tyson"],
-        "answer": "A"
-    },{
-        "question": "What is the time complexity of the Timsort algorithm in its worst case?",
-        "options": ["A. O(n log n)", "B. O(n^2)", "C. O(log n)", "D. O(n)"],
-        "answer": "A"
-    },
-    {
-        "question": "Which of the following is NOT a valid storage class in C?",
-        "options": ["A. register", "B. mutable", "C. static", "D. extern"],
-        "answer": "B"
-    },
-    {
-        "question": "What is the primary purpose of the 'volatile' keyword in C/C++?",
-        "options": ["A. To optimize code", "B. To prevent compiler optimization", "C. To allocate memory", "D. To declare a global variable"],
-        "answer": "B"
-    },
-    {
-        "question": "Which sorting algorithm is considered stable?",
-        "options": ["A. Merge Sort", "B. Quick Sort", "C. Heap Sort", "D. Shell Sort"],
-        "answer": "A"
-    },
-    {
-        "question": "In Java, what is the difference between '=='' and '.equals()'?",
-        "options": ["A. '==' compares references, '.equals()' compares content", "B. '==' compares content, '.equals()' compares references", "C. Both compare references", "D. Both compare content"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the output of '5 | 3' in binary logic?",
-        "options": ["A. 7", "B. 6", "C. 3", "D. 5"],
-        "answer": "A"
-    },
-    {
-        "question": "Which language is used to write the Linux kernel?",
-        "options": ["A. C", "B. C++", "C. Assembly", "D. Python"],
-        "answer": "A"
-    },
-    {
-        "question": "What does SOLID in programming stand for?",
-        "options": [
-            "A. Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion",
-            "B. Static Objects, Linear Integration, Dependency injection",
-            "C. Structural Optimization, Logical Inheritance, Dependency Mapping",
-            "D. Software Optimization Layers in Development"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "What is the difference between 'let' and 'var' in JavaScript?",
-        "options": [
-            "A. 'let' is block-scoped, 'var' is function-scoped",
-            "B. 'var' is block-scoped, 'let' is function-scoped",
-            "C. Both are block-scoped",
-            "D. Both are function-scoped"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "In Python, what is the purpose of the GIL (Global Interpreter Lock)?",
-        "options": [
-            "A. To prevent multiple threads from executing Python bytecodes simultaneously",
-            "B. To optimize memory usage in Python",
-            "C. To handle global variables in Python",
-            "D. To manage garbage collection in Python"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "What is the main characteristic of a red-black tree?",
-        "options": [
-            "A. Self-balancing with nodes that are red or black",
-            "B. It always has a maximum height of log(n)",
-            "C. All nodes must be red",
-            "D. It only stores numeric keys"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "In React, what is the primary purpose of a 'useEffect' hook?",
-        "options": [
-            "A. To manage side effects in functional components",
-            "B. To manage state in functional components",
-            "C. To handle rendering logic",
-            "D. To replace lifecycle methods in class components"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "What is the default method for collision resolution in a hash table?",
-        "options": ["A. Chaining", "B. Linear Probing", "C. Quadratic Probing", "D. Double Hashing"],
-        "answer": "A"
-    },
-    {
-        "question": "Which of the following languages is purely functional?",
-        "options": ["A. Haskell", "B. Scala", "C. Kotlin", "D. Python"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the main use of Kubernetes?",
-        "options": [
-            "A. Managing containerized applications",
-            "B. Virtual machine management",
-            "C. Software version control",
-            "D. Web development frameworks"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "Which of the following is true about Big-O Notation?",
-        "options": [
-            "A. It represents the worst-case complexity of an algorithm",
-            "B. It represents the average-case complexity",
-            "C. It represents the best-case complexity",
-            "D. It only applies to time complexity"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "What is the time complexity of inserting a node in a balanced binary search tree?",
-        "options": ["A. O(log n)", "B. O(n)", "C. O(1)", "D. O(n log n)"],
-        "answer": "A"
-    },
-    {
-        "question": "What does the 'this' keyword refer to in JavaScript?",
-        "options": [
-            "A. The object that owns the function being executed",
-            "B. The global scope",
-            "C. The parent object",
-            "D. The document object"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "In SQL, what does ACID stand for?",
-        "options": [
-            "A. Atomicity, Consistency, Isolation, Durability",
-            "B. Allocation, Connection, Implementation, Data",
-            "C. Architecture, Clustering, Integration, Deployment",
-            "D. Arithmetic, Constants, Integrity, Distribution"
-        ],
-        "answer": "A"
-    },
-    {
-        "question": "What is the primary purpose of an abstract class in object-oriented programming?",
-        "options": [
-            "A. To provide a base class with common functionality",
-            "B. To ensure strict inheritance",
-            "C. To enforce the use of interfaces",
-            "D. To store static methods only"
-        ],
-        "answer": "A"
-    },{
-        "question": "Which band released the album *Dark Side of the Moon* in 1973?",
-        "options": ["A. Pink Floyd", "B. Led Zeppelin", "C. The Beatles", "D. Queen"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is the only artist to have won a Grammy in Pop, Rock, Dance, and R&B categories?",
-        "options": ["A. Beyoncé", "B. Lady Gaga", "C. Prince", "D. Michael Jackson"],
-        "answer": "B"
-    },
-    {
-        "question": "What was the first music video ever played on MTV?",
-        "options": ["A. 'Video Killed the Radio Star' by The Buggles", "B. 'Thriller' by Michael Jackson", "C. 'Take on Me' by A-ha", "D. 'Like a Virgin' by Madonna"],
-        "answer": "A"
-    },
-    {
-        "question": "Which artist holds the record for the most Billboard Hot 100 number-one singles?",
-        "options": ["A. The Beatles", "B. Mariah Carey", "C. Elvis Presley", "D. Drake"],
-        "answer": "A"
-    },
-    {
-        "question": "Which classical composer wrote the famous piece *Für Elise*?",
-        "options": ["A. Ludwig van Beethoven", "B. Wolfgang Amadeus Mozart", "C. Johann Sebastian Bach", "D. Franz Schubert"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the longest-running #1 song on the Billboard Hot 100?",
-        "options": ["A. 'Old Town Road' by Lil Nas X", "B. 'Despacito' by Luis Fonsi", "C. 'Shape of You' by Ed Sheeran", "D. 'We Belong Together' by Mariah Carey"],
-        "answer": "A"
-    },
-    {
-        "question": "Which artist performed the first Super Bowl Halftime Show?",
-        "options": ["A. Michael Jackson", "B. The Rolling Stones", "C. Diana Ross", "D. Gloria Estefan"],
-        "answer": "D"
-    },
-    {
-        "question": "What is the most-streamed song on Spotify as of 2024?",
-        "options": ["A. 'Blinding Lights' by The Weeknd", "B. 'Shape of You' by Ed Sheeran", "C. 'Stay' by The Kid LAROI and Justin Bieber", "D. 'As It Was' by Harry Styles"],
-        "answer": "A"
-    },
-    {
-        "question": "Which album is widely regarded as the best-selling of all time?",
-        "options": ["A. 'Thriller' by Michael Jackson", "B. 'Back in Black' by AC/DC", "C. 'The Bodyguard' Soundtrack", "D. 'Hotel California' by Eagles"],
-        "answer": "A"
-    },
-    {
-        "question": "Which song by Queen features the iconic lyric, 'Is this the real life? Is this just fantasy?'?",
-        "options": ["A. 'Bohemian Rhapsody'", "B. 'We Will Rock You'", "C. 'Somebody to Love'", "D. 'Don't Stop Me Now'"],
-        "answer": "A"
-    },
-    {
-        "question": "What year was the song 'Smells Like Teen Spirit' by Nirvana released?",
-        "options": ["A. 1991", "B. 1994", "C. 1989", "D. 1992"],
-        "answer": "A"
-    },
-    {
-        "question": "Which singer-songwriter wrote 'Hallelujah', later popularized by Jeff Buckley?",
-        "options": ["A. Leonard Cohen", "B. Bob Dylan", "C. Neil Young", "D. Paul Simon"],
-        "answer": "A"
-    },
-    {
-        "question": "Which K-pop group became the first to win a Billboard Music Award?",
-        "options": ["A. BTS", "B. BLACKPINK", "C. EXO", "D. TWICE"],
-        "answer": "A"
-    },
-    {
-        "question": "Which artist recorded the James Bond theme song *Skyfall*?",
-        "options": ["A. Adele", "B. Sam Smith", "C. Billie Eilish", "D. Madonna"],
-        "answer": "A"
-    },
-    {
-        "question": "Who wrote and first recorded the song 'Respect', later made famous by Aretha Franklin?",
-        "options": ["A. Otis Redding", "B. Ray Charles", "C. Marvin Gaye", "D. Sam Cooke"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the title of Taylor Swift's first studio album?",
-        "options": ["A. 'Taylor Swift'", "B. 'Fearless'", "C. 'Speak Now'", "D. 'Red'"],
-        "answer": "A"
-    },
-    {
-        "question": "Which rapper's real name is Shawn Corey Carter?",
-        "options": ["A. Jay-Z", "B. Kanye West", "C. Kendrick Lamar", "D. Nas"],
-        "answer": "A"
-    },
-    {
-        "question": "Which song holds the record for the most YouTube views as of 2024?",
-        "options": ["A. 'Despacito' by Luis Fonsi", "B. 'Baby Shark Dance'", "C. 'Shape of You' by Ed Sheeran", "D. 'See You Again' by Wiz Khalifa"],
-        "answer": "B"
-    },
-    {
-        "question": "Which artist is credited with popularizing the 'moonwalk' dance move?",
-        "options": ["A. Michael Jackson", "B. James Brown", "C. Prince", "D. Elvis Presley"],
-        "answer": "A"
-    },
-    {
-        "question": "Which band released the song 'Stairway to Heaven'?",
-        "options": ["A. Led Zeppelin", "B. The Beatles", "C. Pink Floyd", "D. Fleetwood Mac"],
-        "answer": "A"
-    },{
-        "question": "What is the capital city of Australia?",
-        "options": ["A. Sydney", "B. Melbourne", "C. Canberra", "D. Perth"],
-        "answer": "C"
-    },
-    {
-        "question": "Which planet is known as the 'Red Planet'?",
-        "options": ["A. Mars", "B. Jupiter", "C. Venus", "D. Saturn"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the largest ocean on Earth?",
-        "options": ["A. Pacific Ocean", "B. Atlantic Ocean", "C. Indian Ocean", "D. Arctic Ocean"],
-        "answer": "A"
-    },
-    {
-        "question": "Who painted the Mona Lisa?",
-        "options": ["A. Leonardo da Vinci", "B. Michelangelo", "C. Vincent van Gogh", "D. Pablo Picasso"],
-        "answer": "A"
-    },
-    {
-        "question": "Which country is known as the Land of the Rising Sun?",
-        "options": ["A. Japan", "B. China", "C. South Korea", "D. Thailand"],
-        "answer": "A"
-    },
-
-    {
-        "question": "What is the chemical symbol for water?",
-        "options": ["A. H2O", "B. O2", "C. CO2", "D. H2"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the powerhouse of the cell?",
-        "options": ["A. Mitochondria", "B. Nucleus", "C. Ribosome", "D. Golgi Apparatus"],
-        "answer": "A"
-    },
-    {
-        "question": "Which element has the highest melting point?",
-        "options": ["A. Tungsten", "B. Iron", "C. Carbon", "D. Gold"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the most abundant gas in Earth’s atmosphere?",
-        "options": ["A. Nitrogen", "B. Oxygen", "C. Carbon Dioxide", "D. Argon"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is known as the father of modern physics?",
-        "options": ["A. Albert Einstein", "B. Isaac Newton", "C. Galileo Galilei", "D. Niels Bohr"],
-        "answer": "B"
-    },
-
-    {
-        "question": "Who wrote the novel *1984*?",
-        "options": ["A. George Orwell", "B. Aldous Huxley", "C. J.R.R. Tolkien", "D. F. Scott Fitzgerald"],
-        "answer": "A"
-    },
-    {
-        "question": "Who is the author of *The Catcher in the Rye*?",
-        "options": ["A. J.D. Salinger", "B. Ernest Hemingway", "C. Mark Twain", "D. F. Scott Fitzgerald"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the title of the first Harry Potter book?",
-        "options": ["A. The Philosopher's Stone", "B. The Chamber of Secrets", "C. The Goblet of Fire", "D. The Prisoner of Azkaban"],
-        "answer": "A"
-    },
-    {
-        "question": "Who wrote *The Great Gatsby*?",
-        "options": ["A. F. Scott Fitzgerald", "B. Ernest Hemingway", "C. Mark Twain", "D. George Orwell"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the protagonist in *Moby-Dick*?",
-        "options": ["A. Captain Ahab", "B. Ishmael", "C. Queequeg", "D. Starbuck"],
-        "answer": "A"
-    },
-
-
-    {
-        "question": "Who was the first president of the United States?",
-        "options": ["A. George Washington", "B. Abraham Lincoln", "C. Thomas Jefferson", "D. John Adams"],
-        "answer": "A"
-    },
-    {
-        "question": "What year did World War II end?",
-        "options": ["A. 1945", "B. 1944", "C. 1943", "D. 1946"],
-        "answer": "A"
-    },
-    {
-        "question": "Who was the first man to step on the moon?",
-        "options": ["A. Neil Armstrong", "B. Buzz Aldrin", "C. Yuri Gagarin", "D. Michael Collins"],
-        "answer": "A"
-    },
-    {
-        "question": "Which empire built the Colosseum in Rome?",
-        "options": ["A. Roman Empire", "B. Ottoman Empire", "C. Byzantine Empire", "D. Greek Empire"],
-        "answer": "A"
-    },
-    {
-        "question": "Who was the ruler of the Mongol Empire?",
-        "options": ["A. Genghis Khan", "B. Kublai Khan", "C. Timur", "D. Attila the Hun"],
-        "answer": "A"
-    },
-
-    {
-        "question": "Which is the largest desert in the world?",
-        "options": ["A. Sahara Desert", "B. Antarctic Desert", "C. Arabian Desert", "D. Gobi Desert"],
-        "answer": "B"
-    },
-    {
-        "question": "What is the longest river in the world?",
-        "options": ["A. Nile", "B. Amazon", "C. Yangtze", "D. Mississippi"],
-        "answer": "B"
-    },
-    {
-        "question": "Which mountain has the highest peak on Earth?",
-        "options": ["A. Mount Everest", "B. K2", "C. Kangchenjunga", "D. Denali"],
-        "answer": "A"
-    },
-    {
-        "question": "Which country has the most natural lakes?",
-        "options": ["A. Canada", "B. Russia", "C. United States", "D. Brazil"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the smallest country in the world?",
-        "options": ["A. Vatican City", "B. Monaco", "C. San Marino", "D. Liechtenstein"],
-        "answer": "A"
-    },
-
-    {
-        "question": "Which TV show is known for the line 'Winter is Coming'?",
-        "options": ["A. Game of Thrones", "B. The Witcher", "C. The Crown", "D. Breaking Bad"],
-        "answer": "A"
-    },
-    {
-        "question": "Who voices Woody in the *Toy Story* movies?",
-        "options": ["A. Tom Hanks", "B. Tim Allen", "C. Robin Williams", "D. Jim Carrey"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the highest-grossing movie of all time as of 2024?",
-        "options": ["A. Avatar", "B. Avengers: Endgame", "C. Titanic", "D. Star Wars: The Force Awakens"],
-        "answer": "A"
-    },
-    {
-        "question": "Which Marvel superhero is known as the 'God of Thunder'?",
-        "options": ["A. Thor", "B. Iron Man", "C. Hulk", "D. Captain America"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the wizarding school in the *Harry Potter* series?",
-        "options": ["A. Hogwarts", "B. Durmstrang", "C. Beauxbatons", "D. Ilvermorny"],
-        "answer": "A"
-    },
-
-    {
-        "question": "Which board game is known as 'The Game of Kings'?",
-        "options": ["A. Chess", "B. Checkers", "C. Go", "D. Backgammon"],
-        "answer": "A"
-    },
-    {
-        "question": "What does 'HTTP' stand for?",
-        "options": ["A. HyperText Transfer Protocol", "B. High Transfer Text Protocol", "C. HyperText Tag Processing", "D. Hyperlink Transfer Path"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the national flower of Japan?",
-        "options": ["A. Cherry Blossom", "B. Lotus", "C. Orchid", "D. Chrysanthemum"],
-        "answer": "A"
-    },
-    {
-        "question": "Who invented the telephone?",
-        "options": ["A. Alexander Graham Bell", "B. Thomas Edison", "C. Nikola Tesla", "D. Guglielmo Marconi"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the hardest natural substance on Earth?",
-        "options": ["A. Diamond", "B. Gold", "C. Platinum", "D. Quartz"],
-        "answer": "A"
-    },{
-        "question": "What is the capital city of Algeria?",
-        "options": ["A. Algiers", "B. Oran", "C. Constantine", "D. Tlemcen"],
-        "answer": "A"
-    },
-    {
-        "question": "Which traditional Algerian dish is made from steamed semolina grains?",
-        "options": ["A. Couscous", "B. Chorba", "C. Mhajeb", "D. Harira"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the traditional Algerian dress for women?",
-        "options": ["A. Karakou", "B. Haik", "C. Chedda", "D. Gandoura"],
-        "answer": "B"
-    },
-    {
-        "question": "Which mountain range is located in Algeria?",
-        "options": ["A. Atlas Mountains", "B. Alps", "C. Andes", "D. Himalayas"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the traditional Algerian tea with mint?",
-        "options": ["A. Thé à la menthe", "B. Qahwa", "C. Atay", "D. Maté"],
-        "answer": "A"
-    },
-    {
-        "question": "Which UNESCO World Heritage site is located in southern Algeria?",
-        "options": ["A. Tassili n'Ajjer", "B. Casbah of Algiers", "C. Djémila", "D. Tipasa"],
-        "answer": "A"
-    },
-    {
-        "question": "Which Algerian city is famous for its Rai music?",
-        "options": ["A. Oran", "B. Tlemcen", "C. Algiers", "D. Annaba"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the Algerian independence war that lasted from 1954 to 1962?",
-        "options": ["A. Algerian War of Independence", "B. Arab Spring", "C. Franco-Algerian War", "D. Maghreb Liberation War"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the traditional Algerian pastry made with honey and almonds?",
-        "options": ["A. Makroud", "B. Baklava", "C. Samsa", "D. Griwech"],
-        "answer": "D"
-    },
-    {
-        "question": "Which city is known as the ‘City of Bridges’ in Algeria?",
-        "options": ["A. Constantine", "B. Tlemcen", "C. Oran", "D. Béjaïa"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the primary religion in Algeria?",
-        "options": ["A. Islam", "B. Christianity", "C. Judaism", "D. Buddhism"],
-        "answer": "A"
-    },
-    {
-        "question": "Which traditional musical instrument is commonly used in Algerian music?",
-        "options": ["A. Ghaita", "B. Darbuka", "C. Banjo", "D. Oud"],
-        "answer": "D"
-    },
-    {
-        "question": "What is the name of the Algerian flag's green and white sections separated by?",
-        "options": ["A. A red crescent and star", "B. A yellow sun", "C. A black stripe", "D. A white star"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the famous Algerian footballer who won the Premier League with Leicester City?",
-        "options": ["A. Riyad Mahrez", "B. Islam Slimani", "C. Yacine Brahimi", "D. Sofiane Feghouli"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the name of the famous Kabyle dish made with fermented semolina?",
-        "options": ["A. Berkoukes", "B. Zlabia", "C. Chakhchoukha", "D. Aghroum"],
-        "answer": "A"
-    },
-    {
-        "question": "Which Algerian city is home to the ancient ruins of Timgad?",
-        "options": ["A. Batna", "B. Algiers", "C. Setif", "D. Constantine"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the traditional Algerian bread cooked in a clay oven called?",
-        "options": ["A. Kesra", "B. Matlouh", "C. Tabouna", "D. Baghrir"],
-        "answer": "B"
-    },
-    {
-        "question": "Which festival celebrates Algerian Rai music?",
-        "options": ["A. Oran International Rai Festival", "B. Algiers Music Festival", "C. Sahara Festival", "D. Constantine Music Fest"],
-        "answer": "A"
-    },
-    {
-        "question": "What is the term for the traditional Algerian headscarf worn by women?",
-        "options": ["A. M'laya", "B. Hijab", "C. Haik", "D. Burnous"],
-        "answer": "C"
-    },
-    {
-        "question": "Which traditional dance is commonly performed in Algerian desert regions?",
-        "options": ["A. Ahidous", "B. Regadda", "C. Ouled Nail Dance", "D. Chaabi Dance"],
-        "answer": "C"
+{
+  "Physics": [
+    {
+      "question": "What is the unit of force in the International System of Units?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Pascal"
+      ],
+      "correct_answer": "b",
+      "category": "Physics"
+    },
+    {
+      "question": "Which of the following is a fundamental force of nature?",
+      "options": [
+        "Friction",
+        "Gravity",
+        "Magnetism"
+      ],
+      "correct_answer": "b",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the speed of light in a vacuum?",
+      "options": [
+        "3 × 10^8 m/s",
+        "3 × 10^6 m/s",
+        "1 × 10^8 m/s"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "Which of the following is true about the energy of an object in motion?",
+      "options": [
+        "It is called kinetic energy",
+        "It is called potential energy",
+        "It is called thermal energy"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the formula for calculating gravitational force?",
+      "options": [
+        "F = G(m1 * m2) / r^2",
+        "F = ma",
+        "F = mv^2"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "Which subatomic particle has a positive charge?",
+      "options": [
+        "Proton",
+        "Electron",
+        "Neutron"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "Which of the following states that energy cannot be created or destroyed?",
+      "options": [
+        "Conservation of mass",
+        "First law of thermodynamics",
+        "Law of motion"
+      ],
+      "correct_answer": "b",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the unit of electric current?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm"
+      ],
+      "correct_answer": "b",
+      "category": "Physics"
+    },
+    {
+      "question": "What type of wave is light?",
+      "options": [
+        "Transverse wave",
+        "Longitudinal wave",
+        "Both"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the effect of increasing the temperature of a gas on its volume (at constant pressure)?",
+      "options": [
+        "Volume increases",
+        "Volume decreases",
+        "Volume remains constant"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the unit of energy in the SI system?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Pascal"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the principle behind a lever?",
+      "options": [
+        "Conservation of energy",
+        "Conservation of momentum",
+        "Mechanical advantage"
+      ],
+      "correct_answer": "c",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the formula for kinetic energy?",
+      "options": [
+        "KE = 1/2 mv^2",
+        "KE = mv",
+        "KE = mgh"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "What type of radiation is emitted by a radioactive material?",
+      "options": [
+        "Alpha particles",
+        "Beta particles",
+        "Gamma rays"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the relationship between current, voltage, and resistance?",
+      "options": [
+        "Ohm's law: V = IR",
+        "V = P / R",
+        "P = IV"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the unit of pressure?",
+      "options": [
+        "Pascal",
+        "Newton",
+        "Joule"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "What is the principle of buoyancy?",
+      "options": [
+        "Archimedes' principle",
+        "Bernoulli's principle",
+        "Newton's law of motion"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
+    },
+    {
+      "question": "Which of the following devices converts mechanical energy into electrical energy?",
+      "options": [
+        "Generator",
+        "Motor",
+        "Transformer"
+      ],
+      "correct_answer": "a",
+      "category": "Physics"
     }
-]
-
+  ],
+  "Chemistry": [
+    {
+      "question": "What is the chemical formula for water?",
+      "options": [
+        "CO2",
+        "H2O",
+        "O2"
+      ],
+      "correct_answer": "b",
+      "category": "Chemistry"
+    },
+    {
+      "question": "Which element is represented by the symbol 'Na'?",
+      "options": [
+        "Sodium",
+        "Nitrogen",
+        "Nickel"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What is the pH value of neutral water?",
+      "options": [
+        "7",
+        "5",
+        "9"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "Which gas is produced during photosynthesis?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What is the atomic number of carbon?",
+      "options": [
+        "6",
+        "12",
+        "8"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What is the formula for methane?",
+      "options": [
+        "CH4",
+        "C2H6",
+        "CO2"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "Which of the following is a noble gas?",
+      "options": [
+        "Helium",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What type of bond is formed between two hydrogen atoms?",
+      "options": [
+        "Covalent bond",
+        "Ionic bond",
+        "Metallic bond"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What is the main component of air?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon dioxide"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What is the chemical formula for sulfuric acid?",
+      "options": [
+        "H2SO4",
+        "HCl",
+        "H2O2"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "Which of the following elements is a halogen?",
+      "options": [
+        "Fluorine",
+        "Oxygen",
+        "Carbon"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "Which compound is formed when an acid reacts with a base?",
+      "options": [
+        "Salt",
+        "Water",
+        "Oxygen"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What is the name of the process by which a solid turns into a gas?",
+      "options": [
+        "Sublimation",
+        "Evaporation",
+        "Condensation"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "Which of the following is an example of a chemical change?",
+      "options": [
+        "Burning wood",
+        "Melting ice",
+        "Dissolving salt in water"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What is the atomic number of oxygen?",
+      "options": [
+        "8",
+        "6",
+        "12"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What is the process by which a liquid turns into a gas?",
+      "options": [
+        "Evaporation",
+        "Sublimation",
+        "Freezing"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "What is the formula for calcium chloride?",
+      "options": [
+        "CaCl2",
+        "CaO",
+        "NaCl"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    },
+    {
+      "question": "Which of the following is a physical property of matter?",
+      "options": [
+        "Density",
+        "Flammability",
+        "Reactivity"
+      ],
+      "correct_answer": "a",
+      "category": "Chemistry"
+    }
+  ],
+  "History": [
+    {
+      "question": "Who was the first President of the United States?",
+      "options": [
+        "George Washington",
+        "Abraham Lincoln",
+        "Thomas Jefferson"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Which war ended in 1945?",
+      "options": [
+        "World War I",
+        "World War II",
+        "Vietnam War"
+      ],
+      "correct_answer": "b",
+      "category": "History"
+    },
+    {
+      "question": "In what year did the Titanic sink?",
+      "options": [
+        "1905",
+        "1912",
+        "1920"
+      ],
+      "correct_answer": "b",
+      "category": "History"
+    },
+    {
+      "question": "Who discovered America in 1492?",
+      "options": [
+        "Christopher Columbus",
+        "Marco Polo",
+        "Leif Erikson"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Which empire was ruled by Julius Caesar?",
+      "options": [
+        "Roman Empire",
+        "Ottoman Empire",
+        "Mongol Empire"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "In which year did World War I begin?",
+      "options": [
+        "1912",
+        "1914",
+        "1918"
+      ],
+      "correct_answer": "b",
+      "category": "History"
+    },
+    {
+      "question": "Who was the leader of Nazi Germany during World War II?",
+      "options": [
+        "Adolf Hitler",
+        "Joseph Stalin",
+        "Winston Churchill"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Which city was the site of the first successful airplane flight?",
+      "options": [
+        "Kitty Hawk",
+        "New York",
+        "Chicago"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "What year did the Berlin Wall fall?",
+      "options": [
+        "1989",
+        "1975",
+        "2000"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Who was the first emperor of China?",
+      "options": [
+        "Qin Shi Huang",
+        "Wudi",
+        "Kublai Khan"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Which country was the first to grant women the right to vote?",
+      "options": [
+        "New Zealand",
+        "United States",
+        "Australia"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Who was the first human to journey into outer space?",
+      "options": [
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "John Glenn"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Which country did the United States fight in the Revolutionary War?",
+      "options": [
+        "Britain",
+        "France",
+        "Germany"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Which event started the American Civil War?",
+      "options": [
+        "Attack on Fort Sumter",
+        "Battle of Gettysburg",
+        "Assassination of Abraham Lincoln"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Which war ended with the Treaty of Versailles?",
+      "options": [
+        "World War I",
+        "World War II",
+        "Korean War"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "In what year did the United States land a man on the moon?",
+      "options": [
+        "1969",
+        "1972",
+        "1965"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+      "options": [
+        "Amelia Earhart",
+        "Harriet Quimby",
+        "Bessie Coleman"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    },
+    {
+      "question": "Which empire was ruled by Alexander the Great?",
+      "options": [
+        "Macedonian Empire",
+        "Roman Empire",
+        "Byzantine Empire"
+      ],
+      "correct_answer": "a",
+      "category": "History"
+    }
+  ]
+}
