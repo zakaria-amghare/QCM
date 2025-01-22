@@ -1,18 +1,23 @@
+import os
+def clear_terminal():
+    os.system('cls' if os.name == 'nt' else 'clear')
 import json
 with open("questions.json","r") as file:
     globaldata=json.load(file)
 
 def new_game():
-    player=input("what is your name:")
+    clear_terminal()
     scor=0
     question_number=1
     localdata=globaldata["QUIZ"]
     for question in localdata:
+        clear_terminal()
         print(f"{question_number}"+") "+question["question"])
         for option in question["options"]:
             print(option)
         guess=input("choose:")
         guess=guess.upper()
+        clear_terminal()
         result=check_answer(question["answer"], guess)
         if result==1:
             scor=scor+result
@@ -20,6 +25,7 @@ def new_game():
             break
         question_number=question_number+1
     print("you have:"+f"{scor}"+"piont")
+    return scor
     
 
 def check_answer(answer, guess):
@@ -34,7 +40,7 @@ def check_answer(answer, guess):
         if guess=="STOP":
             return -1
         
+        
    
 
 
-new_game()
