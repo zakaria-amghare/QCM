@@ -40,20 +40,20 @@ def display_scores(player_name):
         if scores:
             print(f"Historique des scores pour '{player_name}':")
             for entry in scores:
-                print(f"- Date: {entry['date']}, Score: {entry['score']}")
+                print(f"- Date: {entry['date']}, Score: {entry['score']} {entry['category']}")
         else:
             print(f"Aucun score enregistré pour '{player_name}'.")
     else:
         print(f"Le joueur '{player_name}' n'est pas inscrit.")
 
 # Ajouter un score pour un joueur
-def add_score(player_name, score):
+def add_score(player_name, score,category):
     data = load_data()
     if is_player_registered(player_name):
         date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        data[player_name].append({"date": date, "score": score})
+        data[player_name].append({"date": date, "score": score,"category":category})
         save_data(data)
-        print(f"\nScore de {score} ajouté pour '{player_name}' le {date}.")
+        print(f"\nScore de {score} ajouté pour '{player_name}' dans {category} le {date}.")
     else:
         print(f"Le joueur '{player_name}' n'est pas inscrit. Veuillez l'inscrire d'abord.")
 

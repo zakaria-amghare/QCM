@@ -5,11 +5,11 @@ import json
 with open("questions.json","r") as file:
     globaldata=json.load(file)
 
-def new_game():
+def new_game(category):
     clear_terminal()
     scor=0
     question_number=1
-    localdata=globaldata["QUIZ"]
+    localdata=globaldata[category]
     for question in localdata:
         clear_terminal()
         print(f"{question_number}"+") "+question["question"])
@@ -29,8 +29,7 @@ def new_game():
     
 
 def check_answer(answer, guess):
-    choix = ["A", "B", "C", "D"]
-    yes_no = ["YES", "NO"]
+    choix = ["A", "B", "C"]
     
     while True:
         if guess in choix:

@@ -1,52 +1,36 @@
 {
-    "abdou": [
-        {
-            "date": "2025-01-02 20:30:23",
-            "score": 12
-        },
-        {
-            "date": "2025-01-02 20:30:46",
-            "score": 15
-        },
-        {
-            "date": "2025-01-02 20:31:57",
-            "score": 18
-        }
-    ],
     "zaki": [
         {
-            "date": "2025-01-02 20:32:51",
-            "score": 18
+            "date": "2025-01-22 21:52:02",
+            "score": 1,
+            "category": "Physics"
         },
         {
-            "date": "2025-01-02 20:33:12",
-            "score": 18
+            "date": "2025-01-22 21:52:38",
+            "score": 2,
+            "category": "Physics"
         },
         {
-            "date": "2025-01-02 22:50:20",
-            "score": 2
+            "date": "2025-01-22 21:55:03",
+            "score": 3,
+            "category": "Mathematics"
         },
         {
-            "date": "2025-01-02 22:50:36",
-            "score": 4
-        },
-        {
-            "date": "2025-01-02 22:50:48",
-            "score": 4
-        },
-        {
-            "date": "2025-01-22 20:29:28",
-            "score": 1
+            "date": "2025-01-22 22:27:11",
+            "score": 2,
+            "category": "Physics"
         }
     ],
-    "baki": [
+    "zakaria": [
         {
-            "date": "2025-01-03 14:57:57",
-            "score": 2
+            "date": "2025-01-22 22:29:14",
+            "score": 1,
+            "category": "Mathematics"
         },
         {
-            "date": "2025-01-03 14:59:54",
-            "score": 4
+            "date": "2025-01-22 22:30:34",
+            "score": 3,
+            "category": "Mathematics"
         }
     ]
 }
