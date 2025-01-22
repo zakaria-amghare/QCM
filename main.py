@@ -58,15 +58,17 @@ class MCQApplication:
             f"{i + 1}. {category}" for i, category in enumerate(categories)
         ]
         options.extend([
-            f"{len(categories) + 1}. All Categories",  # Move this option to the end
+            f"{len(categories) + 1}. All Categories",
             f"{len(categories) + 2}. View History",
             f"{len(categories) + 3}. Export Results",
             f"{len(categories) + 4}. Exit"
         ])
         if is_admin:
             options.append(f"{len(categories) + 5}. Add Questions")
+
         print("\nAvailable options:")
         print("\n".join(options))
+
 
 
     def get_menu_choice(self, categories, is_admin):
@@ -90,6 +92,7 @@ class MCQApplication:
             elif choice in [category.lower() for category in categories]:
                 return [category.lower() for category in categories].index(choice) + 1
             print("Invalid choice. Please try again.")
+
 
 
     def add_questions(self):
@@ -125,75 +128,76 @@ class MCQApplication:
                 break
 
     def display_history(self, username):
-        history = self.users.get(username, {}).get("history", [])
-        if history:
-            print(f"\n{username}'s History:")
-            for record in history:
-                print(f"- Date: {record['date']}, Category: {record['category']}, Score: {record['score']}/{record['total']}")
-        else:
-            print("\nNo history found.")
+        # Normalize username to handle case differences
+        username_lower = username.lower()
+        matching_user = None
 
-    def run_test(self, username, category=None):
-        if category and category not in self.questions:
-            print(f"Error: Category '{category}' not found.")
+        # Find the correct username from users.json (case insensitive)
+        for stored_username in self.users.keys():
+            if stored_username.lower() == username_lower:
+                matching_user = stored_username
+                break
+
+        if not matching_user:
+            print(f"\n⚠️ User '{username}' not found. No history available.")
             return
 
-        # Ask for a time limit, even in "All Categories" mode
-        while True:
-            time_input = input("\nEnter the time limit per question (in seconds) or press Enter to use the default (20s): ").strip()
-            if time_input == "":
-                time_limit = 20  # Default time limit
-                print("Using default time limit: 20 seconds per question.")
+        history = self.users[matching_user].get("history", [])
+
+        if not history:
+            print(f"\nℹ️ No quiz history found for {matching_user}.")
+            return
+
+        print(f"\n📜 {matching_user}'s Quiz History:")
+        print("=" * 50)
+
+        for record in history:
+            date = record.get("date", "Unknown Date")
+            category = record.get("category", "Unknown Category")
+            score = record.get("score", "N/A")  # Default to "N/A" if missing
+            total = record.get("total", "N/A")  # Default to "N/A" if missing
+            print(f"📅 Date: {date} | 📂 Category: {category} | 🎯 Score: {score}/{total}")
+
+        print("=" * 50)
+
+
+
+    def display_history(self, username):
+        # Normalize username case
+        username_lower = username.lower()
+        matching_user = None
+
+        # Find matching username in users.json
+        for stored_username in self.users.keys():
+            if stored_username.lower() == username_lower:
+                matching_user = stored_username
                 break
-            try:
-                time_limit = int(time_input)
-                if time_limit <= 0:
-                    print("Time limit must be greater than 0. Try again.")
-                else:
-                    break
-            except ValueError:
-                print("Invalid input. Please enter a valid number.")
 
-        # Select questions (all categories or specific)
-        questions = self.questions[category] if category else [
-            q for qs in self.questions.values() for q in qs
-        ]
-        selected_questions = random.sample(questions, min(len(questions), 10 if not category else 5))
+        if not matching_user:
+            print(f"\n⚠️ User '{username}' not found. No history available.")
+            return
 
-        score = 0
+        history = self.users[matching_user].get("history", [])
 
-        for i, question in enumerate(selected_questions, 1):
-            print(f"\nQuestion {i}: {question['question']}")
-            for j, option in enumerate(question['options'], 97):
-                print(f"{chr(j)}) {option}")
+        if not history:
+            print(f"\nℹ️ No quiz history found for {matching_user}.")
+            return
 
-            answer = None
+        print(f"\n📜 {matching_user}'s Quiz History:")
+        print("=" * 50)
 
-            def get_input():
-                nonlocal answer
-                answer = input(f"Answer (within {time_limit} seconds): ").strip().lower()
+        # ✅ Properly loop through and print history entries
+        for record in history:
+            date = record.get("date", "Unknown Date")
+            category = record.get("category", "Unknown Category")
+            score = record.get("score", 0)  # Default to 0 if missing
+            total = record.get("total", 0)  # Default to 0 if missing
+            print(f"📅 Date: {date} | 📂 Category: {category} | 🎯 Score: {score}/{total}")
 
-            input_thread = threading.Thread(target=get_input)
-            input_thread.start()
-            input_thread.join(timeout=time_limit)
+        print("=" * 50)
 
-            if answer is None:
-                print("⏳ Time's up! Moving to the next question.")
-            elif answer == question['correct_answer']:
-                score += 1
-                print("✅ Correct!")
-            else:
-                print(f"❌ Incorrect. Correct answer: {question['correct_answer']}) {question['options'][ord(question['correct_answer']) - 97]}")
-
-        self.users.setdefault(username, {"history": []})["history"].append({
-            "date": datetime.now().strftime("%Y-%m-%d"),
-            "category": category or "All",
-            "score": score,
-            "total": len(selected_questions)
-        })
-        self.save_users()
-        print(f"\nFinal Score: {score}/{len(selected_questions)}")
-
+        # ✅ Pause before returning to the menu
+        input("\nPress Enter to return to the menu...")
 
     def export_results(self, username):
         if username not in self.users:
@@ -211,7 +215,8 @@ class MCQApplication:
 def main():
     app = MCQApplication()
     os.system('cls' if os.name == 'nt' else 'clear')
-    print("Welcome to the Computer Science MCQ!")
+    print("Welcome to the MCQ Application!")
+
     username = input("\nEnter your username: ")
 
     categories = app.get_categories()
@@ -235,6 +240,7 @@ def main():
         else:
             selected_category = None if choice == len(categories) + 1 else categories[choice - 1]
             app.run_test(username, selected_category)
+
 
 
 if __name__ == "__main__":
