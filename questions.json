@@ -1,29 +1,97 @@
 {
-    "QUIZ":
-            [
-                {
-                    "question": "Who won the FIFA World Cup in 2018?",
-                    "options": ["A. Brazil", "B. Germany", "C. France", "D. Argentina"],
-                    "answer": "A"
-                },
-            
-                {
-                    "question": "Which player has the most Ballon d'Or awards as of 2024?",
-                    "options": ["A. Lionel Messi", "B. Cristiano Ronaldo", "C. Zinedine Zidane", "D. Johan Cruyff"],
-                    "answer": "A"
-                },
-                
-                {
-                    "question": "Which football club is nicknamed 'The Red Devils'?",
-                    "options": ["A. Manchester United", "B. Liverpool", "C. AC Milan", "D. Arsenal"],
-                    "answer": "A"
-                },
-                
-                {
-                    "question": "Who is the top scorer in UEFA Champions League history?",
-                    "options": ["A. Cristiano Ronaldo", "B. Lionel Messi", "C. Robert Lewandowski", "D. Karim Benzema"],
-                    "answer": "A"
-                }
-            ]
+    "Mathematics": 
+    [
+        {
+            "question": "What is the derivative of x^2?",
+            "options": ["A. 2x", "B. x^2", "C. x"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the sum of the angles of a triangle?",
+            "options": ["A. 180 degrees", "B. 90 degrees", "C. 360 degrees"],
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is a prime number?",
+            "options": ["A. 15", "B. 23", "C. 35"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the value of π (pi) approximately?",
+            "options": ["A. 3.14", "B. 2.71", "C. 1.61"],
+            "answer": "A"
+        }
+    ],
 
+    "Physics": 
+    [
+        {
+            "question": "What is the unit of force in the International System of Units?",
+            "options": ["A. Joule", "B. Newton", "C. Pascal"],
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is a fundamental force of nature?",
+            "options": ["A. Friction", "B. Gravity", "C. Magnetism"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the speed of light in a vacuum?",
+            "options": ["A. 3 × 10^8 m/s", "B. 3 × 10^6 m/s", "C. 1 × 10^8 m/s"],
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is true about the energy of an object in motion?",
+            "options": ["A. It is called kinetic energy", "B. It is called potential energy", "C. It is called thermal energy"],
+            "answer": "A"
+        }
+    ],
+
+    "Chemistry": 
+    [
+        {
+            "question": "What is the chemical formula for water?",
+            "options": ["A. CO2", "B. H2O", "C. O2"],
+            "answer": "B"
+        },
+        {
+            "question": "Which element is represented by the symbol 'Na'?",
+            "options": ["A. Sodium", "B. Nitrogen", "C. Nickel"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the pH value of neutral water?",
+            "options": ["A. 7", "B. 5", "C. 9"],
+            "answer": "A"
+        },
+        {
+            "question": "Which gas is produced during photosynthesis?",
+            "options": ["A. Oxygen", "B. Carbon dioxide", "C. Nitrogen"],
+            "answer": "A"
+        }
+    ],
+
+    "History": 
+    [
+        {
+            "question": "Who was the first President of the United States?",
+            "options": ["A. George Washington", "B. Abraham Lincoln", "C. Thomas Jefferson"],
+            "answer": "A"
+        },
+        {
+            "question": "Which war ended in 1945?",
+            "options": ["A. World War I", "B. World War II", "C. Vietnam War"],
+            "answer": "B"
+        },
+        {
+            "question": "In what year did the Titanic sink?",
+            "options": ["A. 1905", "B. 1912", "C. 1920"],
+            "answer": "B"
+        },
+        {
+            "question": "Who discovered America in 1492?",
+            "options": ["A. Christopher Columbus", "B. Marco Polo", "C. Leif Erikson"],
+            "answer": "A"
+        }
+    ]
 }
