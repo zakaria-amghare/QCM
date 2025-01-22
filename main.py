@@ -2,6 +2,7 @@ import json
 from datetime import datetime
 import os
 import random
+import threading
 
 
 class MCQApplication:
@@ -57,7 +58,7 @@ class MCQApplication:
             f"{i + 1}. {category}" for i, category in enumerate(categories)
         ]
         options.extend([
-            f"{len(categories) + 1}. All Categories",
+            f"{len(categories) + 1}. All Categories",  # Move this option to the end
             f"{len(categories) + 2}. View History",
             f"{len(categories) + 3}. Export Results",
             f"{len(categories) + 4}. Exit"
@@ -66,6 +67,7 @@ class MCQApplication:
             options.append(f"{len(categories) + 5}. Add Questions")
         print("\nAvailable options:")
         print("\n".join(options))
+
 
     def get_menu_choice(self, categories, is_admin):
         valid_choices = {
@@ -88,6 +90,7 @@ class MCQApplication:
             elif choice in [category.lower() for category in categories]:
                 return [category.lower() for category in categories].index(choice) + 1
             print("Invalid choice. Please try again.")
+
 
     def add_questions(self):
         print("\nAdding Questions:")
@@ -135,27 +138,52 @@ class MCQApplication:
             print(f"Error: Category '{category}' not found.")
             return
 
-        questions = (self.questions[category] if category else
-                     [q for qs in self.questions.values() for q in qs])
+        # Ask for a time limit, even in "All Categories" mode
+        while True:
+            time_input = input("\nEnter the time limit per question (in seconds) or press Enter to use the default (20s): ").strip()
+            if time_input == "":
+                time_limit = 20  # Default time limit
+                print("Using default time limit: 20 seconds per question.")
+                break
+            try:
+                time_limit = int(time_input)
+                if time_limit <= 0:
+                    print("Time limit must be greater than 0. Try again.")
+                else:
+                    break
+            except ValueError:
+                print("Invalid input. Please enter a valid number.")
+
+        # Select questions (all categories or specific)
+        questions = self.questions[category] if category else [
+            q for qs in self.questions.values() for q in qs
+        ]
         selected_questions = random.sample(questions, min(len(questions), 10 if not category else 5))
 
         score = 0
+
         for i, question in enumerate(selected_questions, 1):
             print(f"\nQuestion {i}: {question['question']}")
             for j, option in enumerate(question['options'], 97):
                 print(f"{chr(j)}) {option}")
 
-            while True:
-                answer = input("Answer: ").strip().lower()
-                if answer in ['a', 'b', 'c']:
-                    break
-                print("Invalid input. Enter 'a', 'b', or 'c'.")
+            answer = None
 
-            if answer == question['correct_answer']:
+            def get_input():
+                nonlocal answer
+                answer = input(f"Answer (within {time_limit} seconds): ").strip().lower()
+
+            input_thread = threading.Thread(target=get_input)
+            input_thread.start()
+            input_thread.join(timeout=time_limit)
+
+            if answer is None:
+                print("⏳ Time's up! Moving to the next question.")
+            elif answer == question['correct_answer']:
                 score += 1
-                print("Correct!")
+                print("✅ Correct!")
             else:
-                print(f"Incorrect. Correct answer: {question['correct_answer']}) {question['options'][ord(question['correct_answer']) - 97]}")
+                print(f"❌ Incorrect. Correct answer: {question['correct_answer']}) {question['options'][ord(question['correct_answer']) - 97]}")
 
         self.users.setdefault(username, {"history": []})["history"].append({
             "date": datetime.now().strftime("%Y-%m-%d"),
@@ -165,6 +193,7 @@ class MCQApplication:
         })
         self.save_users()
         print(f"\nFinal Score: {score}/{len(selected_questions)}")
+
 
     def export_results(self, username):
         if username not in self.users:
