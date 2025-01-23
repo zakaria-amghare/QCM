@@ -1,48 +1,54 @@
 {
-    "Mathematics": 
+    "Sports": 
     [
         {
-            "question": "What is the derivative of x^2?",
-            "options": ["A. 2x", "B. x^2", "C. x"],
-            "answer": "A"
+            "question": "Which country won the FIFA World Cup in 2018?",
+            "options": ["A. Germany", "B. Brazil", "C. France"],
+            "answer": "C"
         },
         {
-            "question": "What is the sum of the angles of a triangle?",
-            "options": ["A. 180 degrees", "B. 90 degrees", "C. 360 degrees"],
-            "answer": "A"
-        },
-        {
-            "question": "Which of the following is a prime number?",
-            "options": ["A. 15", "B. 23", "C. 35"],
+            "question": "How many players are on a soccer team on the field during play?",
+            "options": ["A. 10", "B. 11", "C. 12"],
             "answer": "B"
         },
         {
-            "question": "What is the value of π (pi) approximately?",
-            "options": ["A. 3.14", "B. 2.71", "C. 1.61"],
-            "answer": "A"
-        }
-    ],
-
-    "Physics": 
-    [
-        {
-            "question": "What is the unit of force in the International System of Units?",
-            "options": ["A. Joule", "B. Newton", "C. Pascal"],
+            "question": "Which sport is known as 'America's pastime'?",
+            "options": ["A. Football", "B. Baseball", "C. Basketball"],
             "answer": "B"
         },
         {
-            "question": "Which of the following is a fundamental force of nature?",
-            "options": ["A. Friction", "B. Gravity", "C. Magnetism"],
-            "answer": "B"
-        },
-        {
-            "question": "What is the speed of light in a vacuum?",
-            "options": ["A. 3 × 10^8 m/s", "B. 3 × 10^6 m/s", "C. 1 × 10^8 m/s"],
+            "question": "What is the maximum score in a single frame of bowling?",
+            "options": ["A. 300", "B. 150", "C. 400"],
             "answer": "A"
         },
         {
-            "question": "Which of the following is true about the energy of an object in motion?",
-            "options": ["A. It is called kinetic energy", "B. It is called potential energy", "C. It is called thermal energy"],
+            "question": "In tennis, what is the term for a score of zero?",
+            "options": ["A. Zero", "B. Love", "C. Ace"],
+            "answer": "B"
+        },
+        {
+            "question": "Which country is the origin of the sport of cricket?",
+            "options": ["A. Australia", "B. India", "C. England"],
+            "answer": "C"
+        },
+        {
+            "question": "How many holes are there in a standard round of golf?",
+            "options": ["A. 9", "B. 18", "C. 27"],
+            "answer": "B"
+        },
+        {
+            "question": "Which NBA player is known as 'King James'?",
+            "options": ["A. Kobe Bryant", "B. LeBron James", "C. Michael Jordan"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the national sport of Japan?",
+            "options": ["A. Baseball", "B. Sumo Wrestling", "C. Karate"],
+            "answer": "B"
+        },
+        {
+            "question": "Which athlete has won the most Olympic gold medals in history?",
+            "options": ["A. Michael Phelps", "B. Usain Bolt", "C. Carl Lewis"],
             "answer": "A"
         }
     ],
@@ -50,23 +56,53 @@
     "Chemistry": 
     [
         {
-            "question": "What is the chemical formula for water?",
-            "options": ["A. CO2", "B. H2O", "C. O2"],
-            "answer": "B"
-        },
-        {
-            "question": "Which element is represented by the symbol 'Na'?",
-            "options": ["A. Sodium", "B. Nitrogen", "C. Nickel"],
+            "question": "What is the chemical symbol for gold?",
+            "options": ["A. Au", "B. Ag", "C. Fe"],
             "answer": "A"
         },
         {
-            "question": "What is the pH value of neutral water?",
+            "question": "What is the main component of natural gas?",
+            "options": ["A. Methane", "B. Ethanol", "C. Propane"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the pH of a neutral substance like pure water?",
             "options": ["A. 7", "B. 5", "C. 9"],
             "answer": "A"
         },
         {
-            "question": "Which gas is produced during photosynthesis?",
-            "options": ["A. Oxygen", "B. Carbon dioxide", "C. Nitrogen"],
+            "question": "Which gas is produced by plants during photosynthesis?",
+            "options": ["A. Oxygen", "B. Carbon Dioxide", "C. Nitrogen"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the most abundant element in the Earth's crust?",
+            "options": ["A. Oxygen", "B. Silicon", "C. Hydrogen"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the common name for H2SO4?",
+            "options": ["A. Sulfuric Acid", "B. Hydrochloric Acid", "C. Nitric Acid"],
+            "answer": "A"
+        },
+        {
+            "question": "What type of bond shares electrons between atoms?",
+            "options": ["A. Ionic", "B. Covalent", "C. Metallic"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the atomic number of carbon?",
+            "options": ["A. 6", "B. 12", "C. 14"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the chemical formula for table salt?",
+            "options": ["A. NaCl", "B. KCl", "C. MgCl2"],
+            "answer": "A"
+        },
+        {
+            "question": "What gas is commonly used in balloons to make them float?",
+            "options": ["A. Helium", "B. Hydrogen", "C. Nitrogen"],
             "answer": "A"
         }
     ],
@@ -91,6 +127,90 @@
         {
             "question": "Who discovered America in 1492?",
             "options": ["A. Christopher Columbus", "B. Marco Polo", "C. Leif Erikson"],
+            "answer": "A"
+        },
+        {
+            "question": "What year did the Berlin Wall fall?",
+            "options": ["A. 1985", "B. 1989", "C. 1991"],
+            "answer": "B"
+        },
+        {
+            "question": "Who was the British Prime Minister during World War II?",
+            "options": ["A. Winston Churchill", "B. Neville Chamberlain", "C. Margaret Thatcher"],
+            "answer": "A"
+        },
+        {
+            "question": "What empire was ruled by Julius Caesar?",
+            "options": ["A. Roman", "B. Ottoman", "C. Persian"],
+            "answer": "A"
+        },
+        {
+            "question": "The Great Wall of China was built to protect against which group?",
+            "options": ["A. Mongols", "B. Huns", "C. Vikings"],
+            "answer": "A"
+        },
+        {
+            "question": "Who was the first man to set foot on the moon?",
+            "options": ["A. Neil Armstrong", "B. Buzz Aldrin", "C. Yuri Gagarin"],
+            "answer": "A"
+        },
+        {
+            "question": "In which city was the Declaration of Independence signed?",
+            "options": ["A. Philadelphia", "B. Boston", "C. New York"],
+            "answer": "A"
+        }
+    ],
+
+    "Cybersecurity": 
+    [
+        {
+            "question": "What does 'phishing' refer to in cybersecurity?",
+            "options": ["A. Sending fake emails to steal information", "B. Unauthorized access to a network", "C. Cracking passwords"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the purpose of a firewall?",
+            "options": ["A. To block unauthorized access", "B. To scan for malware", "C. To encrypt files"],
+            "answer": "A"
+        },
+        {
+            "question": "What does HTTPS stand for?",
+            "options": ["A. HyperText Transfer Protocol Secure", "B. HyperText Transfer Privacy System", "C. HyperText Transfer Protected System"],
+            "answer": "A"
+        },
+        {
+            "question": "What is a common type of malware that encrypts files for ransom?",
+            "options": ["A. Ransomware", "B. Spyware", "C. Adware"],
+            "answer": "A"
+        },
+        {
+            "question": "What does 'VPN' stand for?",
+            "options": ["A. Virtual Private Network", "B. Virtual Protected Network", "C. Virtual Private Node"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the strongest encryption type?",
+            "options": ["A. AES-256", "B. DES", "C. RSA-1024"],
+            "answer": "A"
+        },
+        {
+            "question": "What is a brute force attack?",
+            "options": ["A. Guessing passwords", "B. Sending fake emails", "C. Overloading a server"],
+            "answer": "A"
+        },
+        {
+            "question": "What is two-factor authentication?",
+            "options": ["A. Using two passwords", "B. Using two forms of verification", "C. Encrypting twice"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the term for hidden malicious code in software?",
+            "options": ["A. Trojan horse", "B. Keylogger", "C. Worm"],
+            "answer": "A"
+        },
+        {
+            "question": "Which protocol is used for secure file transfer?",
+            "options": ["A. SFTP", "B. FTP", "C. SMTP"],
             "answer": "A"
         }
     ]
