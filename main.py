@@ -7,6 +7,7 @@ from datetime import datetime
 users_file = "users.json"
 questions_file = "questions.json"
 
+
 def load_users():
     if os.path.exists(users_file):
         try:
@@ -18,9 +19,13 @@ def load_users():
     else:
         return {}
 
+
+
 def save_users(users):
     with open(users_file, 'w') as file:
         json.dump(users, file, indent=4)
+
+
 
 def load_questions():
     if os.path.exists(questions_file):
@@ -34,12 +39,15 @@ def load_questions():
         print(f"Error: {questions_file} not found.")
         return {}
 
+
 def is_player_registered(username, users):
     return username in users
+
 
 def register_player(username, users):
     users[username] = {"history": []}
     save_users(users)
+
 
 def display_scores(username, users):
     history = users.get(username, {}).get("history", [])
@@ -49,6 +57,8 @@ def display_scores(username, users):
             print(f"- Date: {record['date']}, Category: {record['category']}, Score: {record['score']}/{record['total']}, Time: {record['time']}")
     else:
         print("\nNo history found.")
+
+
 
 def run_test(username, category, questions, users):
     if category == "All Categories":
@@ -60,6 +70,7 @@ def run_test(username, category, questions, users):
 
     score = 0
     start_time = time.time()  # Start the timer
+
 
     for i, question in enumerate(selected_questions, 1):
         print(f"\nQuestion {i}: {question['question']}")
@@ -74,11 +85,11 @@ def run_test(username, category, questions, users):
 
         if answer == question['answer']:
             score += 1
-            print("Correct!")
+            print("✅Correct!")
         else:
-            print(f"Incorrect. Correct answer: {question['answer']}) {question['options'][ord(question['answer']) - 65]}")
+            print(f"❌ Incorrect. Correct answer: {question['answer']}) {question['options'][ord(question['answer']) - 65]}")
 
-    end_time = time.time()  # End the timer
+    end_time = time.time()  # End the timer ki tkhlass l quiz
     elapsed_time = end_time - start_time
     minutes, seconds = divmod(elapsed_time, 60)
 
@@ -94,10 +105,11 @@ def run_test(username, category, questions, users):
     print(f"\nFinal Score: {score}/{len(selected_questions)}")
     print(f"Quiz completed in {int(minutes)} minutes and {int(seconds)} seconds.")
 
-# Export user results to a CSV file
+
+# Export user results (hadi ta3 advanced mode)
 def export_results(username, users):
     if username not in users:
-        print("User not found.")
+        print("User does not exist.")
         return
 
     filename = f"{username}_results.csv"
@@ -107,8 +119,11 @@ def export_results(username, users):
             file.write(f"{record['date']},{record['score']},{record['total']},{record['category']},{record['time']}\n")
     print(f"Results exported to {filename}")
 
+
+
 def clear_terminal():
     os.system('cls' if os.name == 'nt' else 'clear')
+
 
 def main():
     users = load_users()
@@ -123,25 +138,27 @@ def main():
 
     categories = list(questions.keys())
 
+
     while True:
         clear_terminal()
-        print(f"\nWelcome back, {username}!")
-        print("Select a category to start the quiz:")
+        print(f"\nWelcome , {username}!")
+        print("chose an option:")
 
         for i, category in enumerate(categories, 1):
             print(f"{i}. {category}")
 
         print("\n5. All Categories")
-        print("6. View Score History")
+        print("6. check your previous results History")
         print("7. Export Results")
-        print("8. Exit")
+        print("8. Get-out")
+
 
         choice = input("\nEnter your choice: ").strip()
 
         if choice.isdigit():
             choice = int(choice)
             if choice == 8:
-                print("\nThank you for using the quiz application!")
+                print("\nThank you for using the quiz app!")
                 break
             elif choice == 6:
                 display_scores(username, users)
