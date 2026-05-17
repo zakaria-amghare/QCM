@@ -1,0 +1,20 @@
+{
+    "zaki": {
+        "history": [
+            {
+                "date": "2026-05-17",
+                "category": "Sports",
+                "score": 0,
+                "total": 5,
+                "time": "0m 57s"
+            },
+            {
+                "date": "2026-05-17",
+                "category": "Sports",
+                "score": 3,
+                "total": 5,
+                "time": "0m 4s"
+            }
+        ]
+    }
+}

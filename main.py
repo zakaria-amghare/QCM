@@ -3,10 +3,24 @@ import os
 import random
 import time
 from datetime import datetime
+import subprocess
 
 users_file = "users.json"
 questions_file = "questions.json"
 
+
+def fzf_select(options, question=""):
+    input_str = "\n".join(options)
+    result = subprocess.run(
+        ["fzf",
+         "--header", question,    # ← shows question at the top
+         "--layout=reverse",      # ← list shows top to bottom
+         "--border"],             # ← adds a nice border
+        input=input_str,
+        stdout=subprocess.PIPE,
+        text=True
+    )
+    return result.stdout.strip()
 
 def load_users():
     if os.path.exists(users_file):
@@ -73,22 +87,27 @@ def run_test(username, category, questions, users):
 
 
     for i, question in enumerate(selected_questions, 1):
-        print(f"\nQuestion {i}: {question['question']}")
-        for j, option in enumerate(question['options'], 97):
-            print(f"{chr(j)}) {option}")
-
-        while True:
-            answer = input("Answer: ").strip().upper()
-            if answer in ['A', 'B', 'C']:
-                break
-            print("Invalid input. Enter 'A', 'B', or 'C'.")
-
+        # 1. build choices FIRST
+        choices = [
+            f"{chr(97 + j)}) {option}"
+            for j, option in enumerate(question['options'])
+        ]
+    
+        # 2. THEN pass to fzf
+        selected = fzf_select(choices, question=f"Question {i}: {question['question']}")
+    
+        if not selected:
+            print("No answer selected")
+            continue
+        
+        # 3. extract answer
+        answer = selected[0].upper()
+    
         if answer == question['answer']:
             score += 1
-            print("✅Correct!")
+            print("✅ Correct!")
         else:
             print(f"❌ Incorrect. Correct answer: {question['answer']}) {question['options'][ord(question['answer']) - 65]}")
-
     end_time = time.time()  # End the timer ki tkhlass l quiz
     elapsed_time = end_time - start_time
     minutes, seconds = divmod(elapsed_time, 60)
